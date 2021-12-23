@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <RootNamespace>StirlingLabs.LsQuic</RootNamespace>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <LangVersion>10</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="BoringSsl.Net" Version="21.12.0-pre-78cf6" />
+        <PackageReference Include="JetBrains.Annotations" Version="2021.3.0" PrivateAssets="All" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="runtimes\*\**">
+            <Pack>True</Pack>
+            <PackageCopyToOutput>False</PackageCopyToOutput>
+            <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+            <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+            <PackagePath>%(Identity)</PackagePath>
+            <Link>%(Identity)</Link>
+        </None>
+        <Content Remove="runtimes\*\**" />
+    </ItemGroup>
+
+</Project>

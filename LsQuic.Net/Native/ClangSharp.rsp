@@ -1,0 +1,31 @@
+-c
+preview-codegen
+multi-file
+unix-types
+generate-aggressive-inlining
+generate-macro-bindings
+--file
+lsquic.h
+lsquic_types.h
+-I .
+-I C:\msys64\usr\include
+--methodClassName
+lsquic
+--namespace
+StirlingLabs.LsQuic.Native
+--prefixStrip
+lsquic_
+-l
+lsquic
+-e
+lsquic_conn
+lsquic_conn_ctx
+lsquic_engine
+lsquic_stream
+lsquic_stream_ctx
+lsxpack_header
+sockaddr
+ssl_ctx_st
+ssl_session_st
+ssl_st
+stack_st_X509

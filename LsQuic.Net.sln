@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LsQuic.Net", "LsQuic.Net\LsQuic.Net.csproj", "{F1961935-F5FB-436D-878C-01F09F09CD61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LsQuic.Net.Tests", "LsQuic.Net.Tests\LsQuic.Net.Tests.csproj", "{A30D2880-ABA6-4C5D-9A6E-A0E6408CDF91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1961935-F5FB-436D-878C-01F09F09CD61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1961935-F5FB-436D-878C-01F09F09CD61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1961935-F5FB-436D-878C-01F09F09CD61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1961935-F5FB-436D-878C-01F09F09CD61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A30D2880-ABA6-4C5D-9A6E-A0E6408CDF91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A30D2880-ABA6-4C5D-9A6E-A0E6408CDF91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A30D2880-ABA6-4C5D-9A6E-A0E6408CDF91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A30D2880-ABA6-4C5D-9A6E-A0E6408CDF91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
